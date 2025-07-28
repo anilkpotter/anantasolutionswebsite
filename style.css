@@ -1,0 +1,70 @@
+:root {
+            --primary: #1a3a8f;
+            --secondary: #ff6e22;
+            --dark: #1e293b;
+            --light: #f8fafc;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            color: var(--dark);
+            overflow-x: hidden;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url('./images/banner-01.jpg') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            min-height: 600px;
+
+        }
+
+        .hero img{
+            width: 250px;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .nav-link::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: var(--secondary);
+            transition: width 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .project-card:hover .project-overlay {
+            opacity: 1;
+        }
+
+        .counter-item::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 2px;
+            height: 50px;
+            background: rgba(255,255,255,0.2);
+        }
+
+        .counter-item:last-child::before {
+            display: none;
+        }
+
+        .contact-input:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px var(--secondary);
+        }
+
+        .mobile-menu {
+            transition: all 0.3s ease;
+        }
