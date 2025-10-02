@@ -68,3 +68,30 @@
         .mobile-menu {
             transition: all 0.3s ease;
         }
+
+        .who-we p{
+                line-height: 30px;
+        }
+
+        .about{
+            position: relative;
+        }
+
+        .under-line{
+            position: absolute;
+            border: 2px solid #ff772f;
+            bottom: 0;
+            width: 246px;
+            left: 0;
+        }
+        /* .highlight{
+           border-bottom: 4px solid #ff772f;
+        } */
+         .ananta-groups .main{
+            padding: 1rem 1rem;
+         }
+         .ananta-groups h3{
+            line-height: 36px;
+            font-size: 1.3rem;
+            text-align: center;
+         }
