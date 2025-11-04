@@ -18,6 +18,19 @@
             min-height: 600px;
 
         }
+        .brand-logo{
+            width: 300px;
+            height: 78px;
+        }
+
+        header nav a{
+            font-size: 18px;
+        }
+
+        .fixed1{
+            position: sticky;
+            top: 0;
+        }
 
         .hero img{
             width: 250px;
@@ -73,6 +86,10 @@
                 line-height: 30px;
         }
 
+        .ananta-gruop{
+            position: relative;
+        }
+
         .about{
             position: relative;
         }
@@ -80,18 +97,81 @@
         .under-line{
             position: absolute;
             border: 2px solid #ff772f;
-            bottom: 0;
+            bottom: -3px;
             width: 246px;
             left: 0;
         }
-        /* .highlight{
-           border-bottom: 4px solid #ff772f;
-        } */
+
+        .under-line2{
+            position: absolute;
+            border: 2px solid #ff772f;
+            bottom: 0;
+            width: 290px;
+            left: 0;
+        }
+
+        .under-line1{
+            position: absolute;
+            border: 2px solid #ff772f;
+            bottom: -3px;
+            width: 370px;
+            left: 0;
+        }
+        .title010{
+            border-bottom: 4px solid #ff772f;
+            width: 300px;
+        }
+        
+        .ananta-associates{
+            border-bottom: 4px solid #ff772f;
+            width: 50%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
          .ananta-groups .main{
             padding: 1rem 1rem;
          }
          .ananta-groups h3{
             line-height: 36px;
             font-size: 1.3rem;
-            text-align: center;
+            text-align: left;
          }
+
+         .logo-slider {
+            width: 100%;
+            overflow: hidden; /* Hides anything outside the container */
+            background-color: #fff; /* Optional background */
+            padding: 20px 0;
+            }
+
+            .slide-track {
+            display: flex;
+            animation: scroll 10s linear infinite; /* Auto-scroll animation */
+            width: calc(250px * 10); /* Adjust based on number of slides */
+            transition: all;
+            }
+
+            .slide1 {
+            height: 70px; /* Height of each slide */
+            width: 100%; /* Width of each slide */
+            padding: 0 10px; /* Space between slides */
+            box-sizing: border-box;
+            }
+
+            .slide1 img {
+            width: 100%;
+            height: auto;
+            object-fit: contain; /* Ensures images fit nicely */
+            }
+
+            /* Keyframes for animation */
+            @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%); 
+            }
+            
+            }

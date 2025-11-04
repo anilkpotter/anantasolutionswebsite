@@ -26,7 +26,7 @@
 
         .slide-content {
             position: absolute;
-            top: 35%;
+            top: 25%;
             left: 0;
             width: 100%;
             padding: 50px;
@@ -157,7 +157,8 @@
         .verticle_-line{
             width: 1px;
             height: 100%;
-            background-image: url("./images/Line 308.png");
+            background-image: url("./images/Line 309.png");
+            /* background: #ffffff; */
             opacity: 0.5;
             position: absolute;
             top: 0;
@@ -179,7 +180,7 @@
             }
 
             .slide-content p {
-                width: 70%;
+                width: 100%;
                 margin: auto;
                 font-size: 16px;
             }
@@ -205,18 +206,43 @@
 
          @media (max-width: 500px) {
 
+            .brand-logo{
+            width: 200px;
+            height: 50px;
+        }
+
                 .navigation {
                     left: 34% !important;
                 }
 
                 .slide-content p {
-                width: 90%;
+                width: 100%;
                 font-size: 15px;
+            }
+            .arrow.prev,.arrow.next{
+                display: none;
+            }
+
+            .slide-content {
+                padding: 20px;
+            }
+
+            .slider-container h1{
+                font-size: 28px;
             }
          }
 
           @media (max-width: 769px) {
                 .navigation {
                     display: none;
+                }
+
+                    .brand-logo{
+                        width: 200px;
+                        height: 50px;
+                    }
+
+                header nav a{
+                    font-size: 14px;
                 }
             }
