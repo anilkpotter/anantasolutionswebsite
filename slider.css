@@ -207,15 +207,15 @@
          @media (max-width: 500px) {
 
             .brand-logo{
-            width: 200px;
-            height: 50px;
-        }
+                width: 200px;
+                height: 50px;
+            }
 
-                .navigation {
-                    left: 34% !important;
-                }
+            .navigation {
+                left: 34% !important;
+            }
 
-                .slide-content p {
+            .slide-content p {
                 width: 100%;
                 font-size: 15px;
             }
@@ -230,6 +230,44 @@
             .slider-container h1{
                 font-size: 28px;
             }
+            #about{
+                padding-top: 5rem ;
+                padding-bottom: 3rem;
+            }
+            #services{
+                padding-top: 0 ;
+                padding-bottom: 5rem;
+            }
+            #brands-slid{
+                padding-bottom: 2rem;
+            }
+            .verticle_-line{
+                display: none;
+            }
+            .ananta-associates{
+                width: 75%;
+            }
+            .fr-small{
+                font-size: 1.5rem !important;
+            }
+            .works p{
+                font-size: 14px;
+            }
+            .fs-al{
+                border: none;
+            }
+            .fs-al::before {
+                display: none;
+            }
+            .title010{
+                border-bottom: 4px solid #ff772f;
+                width: 246px;
+            }
+             .title012{
+                border-bottom: 4px solid #ff772f;
+                width: 318px;
+            }
+
          }
 
           @media (max-width: 769px) {
@@ -237,12 +275,40 @@
                     display: none;
                 }
 
-                    .brand-logo{
-                        width: 200px;
-                        height: 50px;
-                    }
+                .brand-logo{
+                    width: 200px;
+                    height: 50px;
+                }
 
                 header nav a{
                     font-size: 14px;
                 }
-            }
+
+                 #about{
+                    padding-top: 5rem ;
+                    padding-bottom: 3rem;
+                }
+                #services{
+                    padding-top: 0 ;
+                    padding-bottom: 5rem;
+                }
+                #brands-slid{
+                    padding-bottom: 2rem;
+                }
+                .verticle_-line{
+                    display: none;
+                }
+                
+                .fr-small{
+                    font-size: 1.5rem !important;
+                }
+                .works p{
+                    font-size: 14px;
+                }
+                .fs-al{
+                    border: none;
+                }
+                .fs-al::before {
+                    display: none;
+                }
+        }

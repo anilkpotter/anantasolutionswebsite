@@ -108,18 +108,20 @@
             bottom: 0;
             width: 290px;
             left: 0;
+            margin: auto;
         }
 
-        .under-line1{
-            position: absolute;
-            border: 2px solid #ff772f;
-            bottom: -3px;
-            width: 370px;
-            left: 0;
-        }
+        
         .title010{
             border-bottom: 4px solid #ff772f;
             width: 300px;
+            margin: auto;
+        }
+
+         .title012{
+            border-bottom: 4px solid #ff772f;
+            width: 380px;
+            margin: auto;
         }
         
         .ananta-associates{
@@ -135,9 +137,11 @@
          .ananta-groups h3{
             line-height: 36px;
             font-size: 1.3rem;
-            text-align: left;
+            text-align: center;
          }
-
+         .sub-title{
+            text-align: center;
+         }
          .logo-slider {
             width: 100%;
             overflow: hidden; /* Hides anything outside the container */
